@@ -21,6 +21,10 @@ class HotelCost
     {
       Console.WriteLine("Your stay might be more expensive than normal!");
     }
+    else if (!(summer || weekend))
+    {
+      Console.WriteLine("Your stay will likely be the cheapest possible!");
+    }
     else
     {
       Console.WriteLine("Your stay might be expensive, but it could be worse!");
